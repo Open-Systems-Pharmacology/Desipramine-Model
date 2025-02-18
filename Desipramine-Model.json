@@ -1,5 +1,5 @@
 {
-  "Version": 79,
+  "Version": 80,
   "ExpressionProfiles": [
     {
       "Type": "Enzyme",
@@ -768,7 +768,9 @@
           "Type": "Base",
           "Pka": 2.84,
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "Database",
+            "Method": "Other",
+            "Description": "chemicalize.com"
           }
         }
       ],
@@ -1097,7 +1099,9 @@
           "Type": "Base",
           "Pka": 4.51,
           "ValueOrigin": {
-            "Source": "Unknown"
+            "Source": "Database",
+            "Method": "Other",
+            "Description": "chemicalize.com"
           }
         }
       ],
@@ -1366,7 +1370,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|desipramine hydrochloride 50 mg peroral s.d.|dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|desipramine hydrochloride 50 mg peroral s.d.|dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -1389,6 +1393,13 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|2-Hydroxydesipramine|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Aarnoutse (2005) - desipramine hydrochloride, po, 50 mg, n=13 (EM)|Organism|PeripheralVenousBlood|2-Hydroxydesipramine|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Aarnoutse (2005) - desipramine hydrochloride, po, 50 mg, n=13 (EM), desipramine"
+        }
       ],
       "Individual": "Aarnoutse (2005), n=13 (EM)",
       "Compounds": [
@@ -1574,7 +1585,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|desipramine hydrochloride 100 mg peroral s.d.|dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|desipramine hydrochloride 100 mg peroral s.d.|dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -1597,6 +1608,18 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|2-Hydroxydesipramine|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Bergmann (2001) - desipramine hydrochloride, po, 100 mg, n=6 (AS=2)|Organism|PeripheralVenousBlood|2-Hydroxydesipramine|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Bergmann (2001) - desipramine hydrochloride, po, 100 mg, n=6 (AS=2), 2-hydroxydesipramine"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Bergmann (2001) - desipramine hydrochloride, po, 100 mg, n=6 (AS=2)|Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Bergmann (2001) - desipramine hydrochloride, po, 100 mg, n=6 (AS=2), desipramine"
+        }
       ],
       "Individual": "Bergmann (2001), n=6 (AS=2)",
       "Compounds": [
@@ -1793,7 +1816,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|desipramine hydrochloride 100 mg peroral s.d.|dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|desipramine hydrochloride 100 mg peroral s.d.|dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -1816,6 +1839,18 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|2-Hydroxydesipramine|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Bergmann (2001) - desipramine hydrochloride, po, 100 mg, n=6 (AS=2.5)|Organism|PeripheralVenousBlood|2-Hydroxydesipramine|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Bergmann (2001) - desipramine hydrochloride, po, 100 mg, n=6 (AS=2.5), 2-hydroxydesipramine"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Bergmann (2001) - desipramine hydrochloride, po, 100 mg, n=6 (AS=2.5)|Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Bergmann (2001) - desipramine hydrochloride, po, 100 mg, n=6 (AS=2.5), desipramine"
+        }
       ],
       "Individual": "Bergmann (2001), n=6 (AS=2.5)",
       "Compounds": [
@@ -2018,7 +2053,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|desipramine hydrochloride 50 mg peroral s.d.|dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|desipramine hydrochloride 50 mg peroral s.d.|dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -2041,6 +2076,18 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|2-Hydroxydesipramine|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Boni (2009) - desipramine hydrochloride, po, 50 mg, n=26 (EM)|Organism|PeripheralVenousBlood|2-Hydroxydesipramine|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Boni (2009) - desipramine hydrochloride, po, 50 mg, n=26 (EM), 2-hydroxydesipramine"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Boni (2009) - desipramine hydrochloride, po, 50 mg, n=26 (EM)|Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Boni (2009) - desipramine hydrochloride, po, 50 mg, n=26 (EM), desipramine"
+        }
       ],
       "Individual": "Boni (2009), n=26 (EM)",
       "Compounds": [
@@ -2243,7 +2290,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|desipramine hydrochloride 100 mg peroral s.d.|dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|desipramine hydrochloride 100 mg peroral s.d.|dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -2266,6 +2313,18 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|2-Hydroxydesipramine|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Brøsen (1986) - desipramine hydrochloride, po, 100 mg, n=6 (fast EM)|Organism|PeripheralVenousBlood|2-Hydroxydesipramine|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Brøsen (1986) - desipramine hydrochloride, po, 100 mg, n=6 (fast EM), 2-hydroxydesipramine"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Brøsen (1986) - desipramine hydrochloride, po, 100 mg, n=6 (fast EM)|Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Brøsen (1986) - desipramine hydrochloride, po, 100 mg, n=6 (fast EM), desipramine"
+        }
       ],
       "Individual": "Brøsen (1986), n=6 (EM)",
       "Compounds": [
@@ -2467,7 +2526,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|desipramine hydrochloride 100 mg peroral s.d.|dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|desipramine hydrochloride 100 mg peroral s.d.|dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -2490,6 +2549,13 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|2-Hydroxydesipramine|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Brøsen (1986) - desipramine hydrochloride, po, 100 mg, n=6 (PM)|Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Brøsen (1986) - desipramine hydrochloride, po, 100 mg, n=6 (PM), desipramine"
+        }
       ],
       "Individual": "Brøsen (1986), n=6 (PM)",
       "Compounds": [
@@ -2677,7 +2743,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|desipramine hydrochloride 100 mg peroral s.d.|dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|desipramine hydrochloride 100 mg peroral s.d.|dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -2700,6 +2766,18 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|2-Hydroxydesipramine|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Brøsen (1986) - desipramine hydrochloride, po, 100 mg, n=6 (EM)|Organism|PeripheralVenousBlood|2-Hydroxydesipramine|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Brøsen (1986) - desipramine hydrochloride, po, 100 mg, n=6 (EM), 2-hydroxydesipramine"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Brøsen (1986) - desipramine hydrochloride, po, 100 mg, n=6 (EM)|Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Brøsen (1986) - desipramine hydrochloride, po, 100 mg, n=6 (EM), desipramine"
+        }
       ],
       "Individual": "Brøsen (1986), n=6 (EM)",
       "Compounds": [
@@ -2901,7 +2979,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|desipramine hydrochloride 50 mg peroral s.d.|dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|desipramine hydrochloride 50 mg peroral s.d.|dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -2924,6 +3002,13 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|2-Hydroxydesipramine|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Harris (2007) - desipramine hydrochloride, po, 50 mg, n=17 (EM)|Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Harris (2007) - desipramine hydrochloride, po, 50 mg, n=17 (EM), desipramine"
+        }
       ],
       "Individual": "Harris (2007), n=17 (EM)",
       "Compounds": [
@@ -3115,7 +3200,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|desipramine hydrochloride 50 mg peroral s.d.|dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|desipramine hydrochloride 50 mg peroral s.d.|dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -3138,6 +3223,18 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|2-Hydroxydesipramine|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Hynes (2015) - desipramine hydrochloride, po, 50 mg, n=20 (EM)|Organism|PeripheralVenousBlood|2-Hydroxydesipramine|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Hynes (2015) - desipramine hydrochloride, po, 50 mg, n=20 (EM), 2-hydroxydesipramine"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Hynes (2015) - desipramine hydrochloride, po, 50 mg, n=20 (EM)|Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Hynes (2015) - desipramine hydrochloride, po, 50 mg, n=20 (EM), desipramine"
+        }
       ],
       "Individual": "Hynes (2015), n=20 (EM)",
       "Compounds": [
@@ -3339,7 +3436,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|desipramine hydrochloride 50 mg peroral s.d.|dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|desipramine hydrochloride 50 mg peroral s.d.|dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -3362,6 +3459,13 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|2-Hydroxydesipramine|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Madani (2002) - desipramine hydrochloride, po, 50 mg, n=24 (EM)|Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Madani (2002) - desipramine hydrochloride, po, 50 mg, n=24 (EM), desipramine"
+        }
       ],
       "Individual": "Madani (2002), n=24 (EM)",
       "Compounds": [
@@ -3552,7 +3656,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|desipramine hydrochloride 50 mg peroral s.d.|dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|desipramine hydrochloride 50 mg peroral s.d.|dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -3575,6 +3679,13 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|2-Hydroxydesipramine|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Bergstrom (1992) - desipramine hydrochloride, po, 50 mg, n=6|Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Bergstrom (1992) - desipramine hydrochloride, po, 50 mg, n=6, desipramine"
+        }
       ],
       "Individual": "Bergstrom (1992), n=6",
       "Compounds": [
@@ -3795,6 +3906,13 @@
         "Organism|PeripheralVenousBlood|2-Hydroxydesipramine|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Brøsen (1988) - desipramine hydrochloride, iv, 50 mg, n=4 (fast EM)|Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Brøsen 1988 - desipramine hydrochloride, iv, 50 mg, n=4 (EM), desipramine"
+        }
+      ],
       "Individual": "Brøsen (1988), n=4 (fast EM)",
       "Compounds": [
         {
@@ -3996,6 +4114,13 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|2-Hydroxydesipramine|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Brøsen (1988) - desipramine hydrochloride, iv, 50 mg, n=3 (PM)|Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Brøsen (1988) - desipramine hydrochloride, iv, 50 mg, n=3 (PM), desipramine"
+        }
       ],
       "Individual": "Brøsen (1988), n=3 (PM)",
       "Compounds": [
@@ -4209,6 +4334,13 @@
         "Organism|PeripheralVenousBlood|2-Hydroxydesipramine|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Brøsen (1988) - desipramine hydrochloride, iv, 50 mg, n=4 (EM)|Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Brøsen (1988) - desipramine hydrochloride, iv, 50 mg, n=4 (EM), desipramine"
+        }
+      ],
       "Individual": "Brøsen (1988), n=4 (EM)",
       "Compounds": [
         {
@@ -4392,7 +4524,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|desipramine hydrochloride 50 mg peroral s.d.|dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|desipramine hydrochloride 50 mg peroral s.d.|dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -4415,6 +4547,13 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|2-Hydroxydesipramine|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Nichols (2013) - desipramine hydrochloride, po, 50 mg, n=38 (EM)|Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Nichols (2013) - desipramine hydrochloride, po, 50 mg, n=38 (EM), desipramine"
+        }
       ],
       "Individual": "Nichols (2013), n=38 (EM)",
       "Compounds": [
@@ -4606,7 +4745,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|desipramine hydrochloride 50 mg peroral s.d.|dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|desipramine hydrochloride 50 mg peroral s.d.|dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -4629,6 +4768,18 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|2-Hydroxydesipramine|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Patroneva (2008) - desipramine hydrochloride, po, 50 mg, n=20 (EM)|Organism|PeripheralVenousBlood|2-Hydroxydesipramine|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Patroneva (2008) - desipramine hydrochloride, po, 50 mg, n=20 (EM), 2-hydroxydesipramine"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "Patroneva (2008) - desipramine hydrochloride, po, 50 mg, n=20 (EM)|Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Patroneva (2008) - desipramine hydrochloride, po, 50 mg, n=20 (EM), desipramine"
+        }
       ],
       "Individual": "Patroneva (2008), n=20 (EM)",
       "Compounds": [
@@ -4830,7 +4981,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|desipramine hydrochloride 25 mg peroral s.d.|dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|desipramine hydrochloride 25 mg peroral s.d.|dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -4853,6 +5004,13 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|2-Hydroxydesipramine|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Spina (1987) - desipramine hydrochloride, po, 25 mg, n=8 (EM)|Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Spina (1987) - desipramine hydrochloride, po, 25 mg, n=8 (EM)"
+        }
       ],
       "Individual": "Spina (1987), n=8 (EM)",
       "Compounds": [
@@ -5031,11 +5189,6 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|desipramine hydrochloride 25 mg peroral s.d.|dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
           "Path": "Desipramine|Intestinal permeability (transcellular)",
           "Value": 1.1427441258E-05,
           "Unit": "cm/min",
@@ -5044,6 +5197,11 @@
             "Method": "ParameterIdentification",
             "Description": "Value updated from 'PI iv + PM (po)' on 2023-01-03 10:46"
           }
+        },
+        {
+          "Path": "Events|desipramine hydrochloride 25 mg peroral s.d.|dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
         },
         {
           "Path": "Undefined Liver|Reference concentration",
@@ -5064,6 +5222,13 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|2-Hydroxydesipramine|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Spina (1987) - desipramine hydrochloride, po, 25 mg, n=6 (PM)|Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Spina (1987) - desipramine hydrochloride, po, 25 mg, n=6 (PM), desipramine"
+        }
       ],
       "Individual": "Spina (1987), n=6 (PM)",
       "Compounds": [
@@ -5241,7 +5406,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|desipramine hydrochloride 50 mg peroral s.d.|dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|desipramine hydrochloride 50 mg peroral s.d.|dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -5264,6 +5429,13 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|2-Hydroxydesipramine|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Skinner (2003) - desipramine hydrochloride, po, 50 mg, n=16 (EM)|Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Skinner (2003) - desipramine hydrochloride, po, 50 mg, n=16 (EM), desipramine"
+        }
       ],
       "Individual": "Skinner (2003), n=16 (EM)",
       "Compounds": [
@@ -5454,7 +5626,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|desipramine hydrochloride 100 mg peroral s.d.|dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|desipramine hydrochloride 100 mg peroral s.d.|dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -5477,6 +5649,13 @@
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|2-Hydroxydesipramine|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)"
+      ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "Spina (1995) - desipramine hydrochloride, po, 100 mg, n=6 (EM)|Organism|PeripheralVenousBlood|Desipramine|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Spina (1995) - desipramine hydrochloride, po, 100 mg, n=6 (EM), desipramine"
+        }
       ],
       "Individual": "Spina (1995), n=6 (EM)",
       "Compounds": [
@@ -5576,6 +5755,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -5677,112 +5857,112 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Alderman (1997) - desipramine hydrochloride 50 mg peroral q.d. 23 days|dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Alderman (1997) - desipramine hydrochloride 50 mg peroral q.d. 23 days|dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Alderman (1997) - desipramine hydrochloride 50 mg peroral q.d. 23 days|dissolved|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Alderman (1997) - desipramine hydrochloride 50 mg peroral q.d. 23 days|dissolved|Application_10|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Alderman (1997) - desipramine hydrochloride 50 mg peroral q.d. 23 days|dissolved|Application_11|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Alderman (1997) - desipramine hydrochloride 50 mg peroral q.d. 23 days|dissolved|Application_11|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Alderman (1997) - desipramine hydrochloride 50 mg peroral q.d. 23 days|dissolved|Application_12|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Alderman (1997) - desipramine hydrochloride 50 mg peroral q.d. 23 days|dissolved|Application_12|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Alderman (1997) - desipramine hydrochloride 50 mg peroral q.d. 23 days|dissolved|Application_13|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Alderman (1997) - desipramine hydrochloride 50 mg peroral q.d. 23 days|dissolved|Application_13|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Alderman (1997) - desipramine hydrochloride 50 mg peroral q.d. 23 days|dissolved|Application_14|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Alderman (1997) - desipramine hydrochloride 50 mg peroral q.d. 23 days|dissolved|Application_14|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Alderman (1997) - desipramine hydrochloride 50 mg peroral q.d. 23 days|dissolved|Application_15|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Alderman (1997) - desipramine hydrochloride 50 mg peroral q.d. 23 days|dissolved|Application_15|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Alderman (1997) - desipramine hydrochloride 50 mg peroral q.d. 23 days|dissolved|Application_16|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Alderman (1997) - desipramine hydrochloride 50 mg peroral q.d. 23 days|dissolved|Application_16|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Alderman (1997) - desipramine hydrochloride 50 mg peroral q.d. 23 days|dissolved|Application_17|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Alderman (1997) - desipramine hydrochloride 50 mg peroral q.d. 23 days|dissolved|Application_17|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Alderman (1997) - desipramine hydrochloride 50 mg peroral q.d. 23 days|dissolved|Application_18|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Alderman (1997) - desipramine hydrochloride 50 mg peroral q.d. 23 days|dissolved|Application_18|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Alderman (1997) - desipramine hydrochloride 50 mg peroral q.d. 23 days|dissolved|Application_19|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Alderman (1997) - desipramine hydrochloride 50 mg peroral q.d. 23 days|dissolved|Application_19|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Alderman (1997) - desipramine hydrochloride 50 mg peroral q.d. 23 days|dissolved|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Alderman (1997) - desipramine hydrochloride 50 mg peroral q.d. 23 days|dissolved|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Alderman (1997) - desipramine hydrochloride 50 mg peroral q.d. 23 days|dissolved|Application_20|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Alderman (1997) - desipramine hydrochloride 50 mg peroral q.d. 23 days|dissolved|Application_20|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Alderman (1997) - desipramine hydrochloride 50 mg peroral q.d. 23 days|dissolved|Application_21|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Alderman (1997) - desipramine hydrochloride 50 mg peroral q.d. 23 days|dissolved|Application_21|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Alderman (1997) - desipramine hydrochloride 50 mg peroral q.d. 23 days|dissolved|Application_22|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Alderman (1997) - desipramine hydrochloride 50 mg peroral q.d. 23 days|dissolved|Application_22|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Alderman (1997) - desipramine hydrochloride 50 mg peroral q.d. 23 days|dissolved|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Alderman (1997) - desipramine hydrochloride 50 mg peroral q.d. 23 days|dissolved|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Alderman (1997) - desipramine hydrochloride 50 mg peroral q.d. 23 days|dissolved|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Alderman (1997) - desipramine hydrochloride 50 mg peroral q.d. 23 days|dissolved|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Alderman (1997) - desipramine hydrochloride 50 mg peroral q.d. 23 days|dissolved|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Alderman (1997) - desipramine hydrochloride 50 mg peroral q.d. 23 days|dissolved|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Alderman (1997) - desipramine hydrochloride 50 mg peroral q.d. 23 days|dissolved|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Alderman (1997) - desipramine hydrochloride 50 mg peroral q.d. 23 days|dissolved|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Alderman (1997) - desipramine hydrochloride 50 mg peroral q.d. 23 days|dissolved|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Alderman (1997) - desipramine hydrochloride 50 mg peroral q.d. 23 days|dissolved|Application_7|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Alderman (1997) - desipramine hydrochloride 50 mg peroral q.d. 23 days|dissolved|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Alderman (1997) - desipramine hydrochloride 50 mg peroral q.d. 23 days|dissolved|Application_8|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Alderman (1997) - desipramine hydrochloride 50 mg peroral q.d. 23 days|dissolved|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Alderman (1997) - desipramine hydrochloride 50 mg peroral q.d. 23 days|dissolved|Application_9|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -5952,19 +6132,23 @@
       "ExtendedProperties": [
         {
           "Name": "Molecule",
-          "Value": "Desipramine"
+          "Value": "Desipramine",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -6043,19 +6227,23 @@
       "ExtendedProperties": [
         {
           "Name": "Molecule",
-          "Value": "Desipramine"
+          "Value": "Desipramine",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -6140,19 +6328,23 @@
       "ExtendedProperties": [
         {
           "Name": "Molecule",
-          "Value": "Desipramine"
+          "Value": "Desipramine",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -6246,19 +6438,23 @@
       "ExtendedProperties": [
         {
           "Name": "Molecule",
-          "Value": "Desipramine"
+          "Value": "Desipramine",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -6349,31 +6545,38 @@
       "ExtendedProperties": [
         {
           "Name": "Source",
-          "Value": "Z:\\projects\\upgx\\projects\\metoprolol\\data\\observed_data\\desipramine_observed_data.xlsx.BR93_PO_100_DES_SD_PVB_EM_84"
+          "Value": "Z:\\projects\\upgx\\projects\\metoprolol\\data\\observed_data\\desipramine_observed_data.xlsx.BR93_PO_100_DES_SD_PVB_EM_84",
+          "Type": "String"
         },
         {
           "Name": "File",
-          "Value": "desipramine_observed_data"
+          "Value": "desipramine_observed_data",
+          "Type": "String"
         },
         {
           "Name": "Sheet",
-          "Value": "BR93_PO_100_DES_SD_PVB_EM_84"
+          "Value": "BR93_PO_100_DES_SD_PVB_EM_84",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "Desipramine"
+          "Value": "Desipramine",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -6455,19 +6658,23 @@
       "ExtendedProperties": [
         {
           "Name": "Molecule",
-          "Value": "Desipramine"
+          "Value": "Desipramine",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -6561,19 +6768,23 @@
       "ExtendedProperties": [
         {
           "Name": "Molecule",
-          "Value": "Desipramine"
+          "Value": "Desipramine",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -6667,19 +6878,23 @@
       "ExtendedProperties": [
         {
           "Name": "Molecule",
-          "Value": "Desipramine"
+          "Value": "Desipramine",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -6767,19 +6982,23 @@
       "ExtendedProperties": [
         {
           "Name": "Molecule",
-          "Value": "Desipramine"
+          "Value": "Desipramine",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -6867,19 +7086,23 @@
       "ExtendedProperties": [
         {
           "Name": "Molecule",
-          "Value": "Desipramine"
+          "Value": "Desipramine",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -6991,19 +7214,23 @@
       "ExtendedProperties": [
         {
           "Name": "Molecule",
-          "Value": "Desipramine"
+          "Value": "Desipramine",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -7100,19 +7327,23 @@
       "ExtendedProperties": [
         {
           "Name": "Molecule",
-          "Value": "Desipramine"
+          "Value": "Desipramine",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -7203,19 +7434,23 @@
       "ExtendedProperties": [
         {
           "Name": "Molecule",
-          "Value": "Desipramine"
+          "Value": "Desipramine",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -7309,19 +7544,23 @@
       "ExtendedProperties": [
         {
           "Name": "Molecule",
-          "Value": "Desipramine"
+          "Value": "Desipramine",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -7409,19 +7648,23 @@
       "ExtendedProperties": [
         {
           "Name": "Molecule",
-          "Value": "Desipramine"
+          "Value": "Desipramine",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -7509,19 +7752,23 @@
       "ExtendedProperties": [
         {
           "Name": "Molecule",
-          "Value": "Desipramine"
+          "Value": "Desipramine",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -7618,19 +7865,23 @@
       "ExtendedProperties": [
         {
           "Name": "Molecule",
-          "Value": "Desipramine"
+          "Value": "Desipramine",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -7718,19 +7969,23 @@
       "ExtendedProperties": [
         {
           "Name": "Molecule",
-          "Value": "Desipramine"
+          "Value": "Desipramine",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -7812,19 +8067,23 @@
       "ExtendedProperties": [
         {
           "Name": "Molecule",
-          "Value": "Desipramine"
+          "Value": "Desipramine",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -7909,19 +8168,23 @@
       "ExtendedProperties": [
         {
           "Name": "Molecule",
-          "Value": "Desipramine"
+          "Value": "Desipramine",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -8009,19 +8272,23 @@
       "ExtendedProperties": [
         {
           "Name": "Molecule",
-          "Value": "Desipramine"
+          "Value": "Desipramine",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -8121,19 +8388,23 @@
       "ExtendedProperties": [
         {
           "Name": "Molecule",
-          "Value": "Desipramine"
+          "Value": "Desipramine",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -8221,19 +8492,23 @@
       "ExtendedProperties": [
         {
           "Name": "Molecule",
-          "Value": "Desipramine"
+          "Value": "Desipramine",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -8315,19 +8590,23 @@
       "ExtendedProperties": [
         {
           "Name": "Molecule",
-          "Value": "2-Hydroxydesipramine"
+          "Value": "2-Hydroxydesipramine",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -8418,19 +8697,23 @@
       "ExtendedProperties": [
         {
           "Name": "Molecule",
-          "Value": "2-Hydroxydesipramine"
+          "Value": "2-Hydroxydesipramine",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -8518,19 +8801,23 @@
       "ExtendedProperties": [
         {
           "Name": "Molecule",
-          "Value": "2-Hydroxydesipramine"
+          "Value": "2-Hydroxydesipramine",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -8612,19 +8899,23 @@
       "ExtendedProperties": [
         {
           "Name": "Molecule",
-          "Value": "2-Hydroxydesipramine"
+          "Value": "2-Hydroxydesipramine",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -8712,19 +9003,23 @@
       "ExtendedProperties": [
         {
           "Name": "Molecule",
-          "Value": "2-Hydroxydesipramine"
+          "Value": "2-Hydroxydesipramine",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -8824,19 +9119,23 @@
       "ExtendedProperties": [
         {
           "Name": "Molecule",
-          "Value": "2-Hydroxydesipramine"
+          "Value": "2-Hydroxydesipramine",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -8921,19 +9220,23 @@
       "ExtendedProperties": [
         {
           "Name": "Molecule",
-          "Value": "2-Hydroxydesipramine"
+          "Value": "2-Hydroxydesipramine",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -9015,19 +9318,23 @@
       "ExtendedProperties": [
         {
           "Name": "Molecule",
-          "Value": "2-Hydroxydesipramine"
+          "Value": "2-Hydroxydesipramine",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -9112,19 +9419,23 @@
       "ExtendedProperties": [
         {
           "Name": "Molecule",
-          "Value": "2-Hydroxydesipramine"
+          "Value": "2-Hydroxydesipramine",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -9212,19 +9523,23 @@
       "ExtendedProperties": [
         {
           "Name": "Molecule",
-          "Value": "2-Hydroxydesipramine"
+          "Value": "2-Hydroxydesipramine",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -9324,19 +9639,23 @@
       "ExtendedProperties": [
         {
           "Name": "Molecule",
-          "Value": "Desipramine"
+          "Value": "Desipramine",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -9427,19 +9746,23 @@
       "ExtendedProperties": [
         {
           "Name": "Molecule",
-          "Value": "Desipramine"
+          "Value": "Desipramine",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -9521,19 +9844,23 @@
       "ExtendedProperties": [
         {
           "Name": "Molecule",
-          "Value": "Desipramine"
+          "Value": "Desipramine",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -9636,19 +9963,23 @@
       "ExtendedProperties": [
         {
           "Name": "Molecule",
-          "Value": "2-Hydroxydesipramine"
+          "Value": "2-Hydroxydesipramine",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -9742,19 +10073,23 @@
       "ExtendedProperties": [
         {
           "Name": "Molecule",
-          "Value": "Desipramine"
+          "Value": "Desipramine",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -9851,19 +10186,23 @@
       "ExtendedProperties": [
         {
           "Name": "Molecule",
-          "Value": "Desipramine"
+          "Value": "Desipramine",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -9954,19 +10293,23 @@
       "ExtendedProperties": [
         {
           "Name": "Molecule",
-          "Value": "Desipramine"
+          "Value": "Desipramine",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -10060,19 +10403,23 @@
       "ExtendedProperties": [
         {
           "Name": "Molecule",
-          "Value": "Desipramine"
+          "Value": "Desipramine",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -10163,19 +10510,23 @@
       "ExtendedProperties": [
         {
           "Name": "Molecule",
-          "Value": "Desipramine"
+          "Value": "Desipramine",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -10350,19 +10701,23 @@
       "ExtendedProperties": [
         {
           "Name": "Molecule",
-          "Value": "Desipramine"
+          "Value": "Desipramine",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -10423,19 +10778,23 @@
       "ExtendedProperties": [
         {
           "Name": "Molecule",
-          "Value": "Desipramine"
+          "Value": "Desipramine",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -10498,19 +10857,23 @@
       "ExtendedProperties": [
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Molecule",
-          "Value": "Desipramine"
+          "Value": "Desipramine",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -10579,15 +10942,18 @@
       "ExtendedProperties": [
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -10650,23 +11016,24 @@
       "Name": "Reese (2008) - DDI - bupropion-desipramine, po, 150/50 mg, n=15 (EM), desipramine",
       "ExtendedProperties": [
         {
-          "Name": "Sheet"
-        },
-        {
           "Name": "Molecule",
-          "Value": "Desipramine"
+          "Value": "Desipramine",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -10835,20 +11202,20 @@
     {
       "Name": "intravenous - dgi",
       "Classifiables": [
+        "Brøsen (1988) - desipramine hydrochloride, iv, 50 mg, n=4 (fast EM)",
         "Brøsen (1988) - desipramine hydrochloride, iv, 50 mg, n=3 (PM)",
-        "Brøsen (1988) - desipramine hydrochloride, iv, 50 mg, n=4 (EM)",
-        "Brøsen (1988) - desipramine hydrochloride, iv, 50 mg, n=4 (fast EM)"
+        "Brøsen (1988) - desipramine hydrochloride, iv, 50 mg, n=4 (EM)"
       ]
     },
     {
       "Name": "oral - no dgi",
       "Classifiables": [
         "Aarnoutse (2005) - desipramine hydrochloride, po, 50 mg, n=13 (EM)",
-        "Bergstrom (1992) - desipramine hydrochloride, po, 50 mg, n=6",
         "Boni (2009) - desipramine hydrochloride, po, 50 mg, n=26 (EM)",
         "Harris (2007) - desipramine hydrochloride, po, 50 mg, n=17 (EM)",
         "Hynes (2015) - desipramine hydrochloride, po, 50 mg, n=20 (EM)",
         "Madani (2002) - desipramine hydrochloride, po, 50 mg, n=24 (EM)",
+        "Bergstrom (1992) - desipramine hydrochloride, po, 50 mg, n=6",
         "Nichols (2013) - desipramine hydrochloride, po, 50 mg, n=38 (EM)",
         "Patroneva (2008) - desipramine hydrochloride, po, 50 mg, n=20 (EM)",
         "Skinner (2003) - desipramine hydrochloride, po, 50 mg, n=16 (EM)",
@@ -10861,10 +11228,10 @@
         "Bergmann (2001) - desipramine hydrochloride, po, 100 mg, n=6 (AS=2)",
         "Bergmann (2001) - desipramine hydrochloride, po, 100 mg, n=6 (AS=2.5)",
         "Brøsen (1986) - desipramine hydrochloride, po, 100 mg, n=6 (fast EM)",
-        "Brøsen (1986) - desipramine hydrochloride, po, 100 mg, n=6 (EM)",
         "Brøsen (1986) - desipramine hydrochloride, po, 100 mg, n=6 (PM)",
-        "Spina (1987) - desipramine hydrochloride, po, 25 mg, n=6 (PM)",
-        "Spina (1987) - desipramine hydrochloride, po, 25 mg, n=8 (EM)"
+        "Brøsen (1986) - desipramine hydrochloride, po, 100 mg, n=6 (EM)",
+        "Spina (1987) - desipramine hydrochloride, po, 25 mg, n=8 (EM)",
+        "Spina (1987) - desipramine hydrochloride, po, 25 mg, n=6 (PM)"
       ]
     }
   ]

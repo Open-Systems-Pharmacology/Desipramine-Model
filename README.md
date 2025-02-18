@@ -5,7 +5,7 @@ Parent-metabolite PBPK model of desipramine and its metabolite 2-hydroxydesipram
 Within this repository, we distribute a PK-Sim snapshot containing simulations of all published clinical (DGI) studies used to develop the parent-metabolite model of desipramine, including the respective observed data digitized from literature reports. For further details and documentation please refer to [1].
 
 # Version information
-PK-Sim Version 11.
+PK-Sim Version 12.
 
 # License
 The model is distributed under the GPLv2 Lincense.
